@@ -11,13 +11,13 @@ const ProjectsSection: React.FC = () => {
 
     const projects = [
         {
-            title: "Project Exemple",
+            title: "Duallas Restaurant",
             subtitle: "Jul 2023 - Dez 2023",
             srcImg: "/src/assets/images/project-trello.png",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.",
+            description: "Projeto desenvolvido durante a FSW cosiste em um sistema de gerenciamento de pedidos de um restaurante fictício chamado Duallas. O sistema permite que o usuário faça login, visualize o cardápio, adicione itens ao carrinho, remova itens do carrinho, visualize o carrinho, faça o pedido e visualize o pedido. O sistema também permite que o usuário faça logout e visualize o histórico de pedidos.", 
             technologies: "Technologies: JavaScript, HTML, CSS, Canvas Graphics",
-            websiteURL: "https://trello.com/",
-            codeURL: "https://github.com/",
+            websiteURL: "https://pad-port-donalds-vkts.vercel.app/duallas-donalds",
+            codeURL: "https://github.com/pedroallas/pad-port-donalds.git",
         },
         {
             title: "Project Exemple",

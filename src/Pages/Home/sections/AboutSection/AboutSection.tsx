@@ -31,35 +31,27 @@ const AboutSection: React.FC = () => {
                                 <WorkspacePremiumIcon />
                                 <Typography textAlign="center" fontWeight={600}>Experience</Typography>
                                 <Typography textAlign="center">1+ years</Typography>
-                                <Typography textAlign="center">Frontend Development</Typography>
+                                <Typography textAlign="center">Full Stack Development</Typography>
                             </StyledCard>
                         </AnimationComponent>
                     </Grid>
-                    <Grid item xs={9} md={2.5}>
+                    <Grid item xs={9} md={3}>
                         <AnimationComponent moveDirection="left">
                             <StyledCard variant="outlined">
                                 <SchoolIcon />
                                 <Typography textAlign="center" fontWeight={600}>Education</Typography>
-                                <Typography textAlign="center">Bachelors Degree</Typography>
-                                <Typography textAlign="center">Electrical Engineer</Typography>
+                                <Typography textAlign="center">Software Engineer</Typography>
+                                <Typography textAlign="center">Systems Analysis and Development</Typography>
                             </StyledCard>
                         </AnimationComponent>
 
                     </Grid>
                 </Grid>
                 <Box pb={1}>
-                    <Typography>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Cras porta semper velit vel rutrum.
-                        Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris.
-                        Phasellus a ultrices elit.
-                        Curabitur ut diam eu orci auctor pretium.
-                        Nullam ultricies erat quam, eget porta velit vehicula sit amet.
-                        Nullam sodales iaculis metus, sed vestibulum nisl vulputate at.
-                        Integer in pulvinar libero.
-                        Donec ornare est quis tortor varius efficitur.
-                        Maecenas sed erat quis felis facilisis pellentesque.
-                        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id felis convallis, luctus lorem eget, varius dolor.
+                    <Typography className="text-justify">
+                    I am a Software Engineer, Systems Analyst, and Developer with a background in Software Engineering, Systems Analysis and Development, and Mathematics. I bring a diverse skill set and a comprehensive understanding of both theoretical and practical aspects of technology and problem-solving.
+                    Throughout my career, I have worked on various projects that have honed my skills in software development, system analysis, and project management. I am committed to continuous learning and staying updated with the latest industry trends and technologies. My goal is to leverage my expertise to create innovative solutions that drive efficiency and add value to organizations.
+                    In my free time, I enjoy exploring new technologies, reading about advancements in the tech industry, and engaging in activities that challenge my analytical and creative thinking.
                     </Typography>
                 </Box>
                 <hr />
