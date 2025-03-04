@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AdrianaSaty/my-portfolio-init.git"
+    "url": "https://github.com/pedroallas/Portifolio"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AdrianaSaty/my-portfolio-init/issues"
+    "url": "https://github.com/pedroallas/Portifolio/issues"
   },
-  "homepage": "https://github.com/AdrianaSaty/my-portfolio-init#readme",
+  "homepage": "https://github.com/pedroallas/Portifolio#readme",
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
