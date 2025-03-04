@@ -54,7 +54,7 @@ export default function Navbar() {
 
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="absolute">
+            <AppBar position="absolute"> {/* Alterado para 'fixed' */}
                 <StyledMobileToolbar>
                     <IconButton
                         size="large"
