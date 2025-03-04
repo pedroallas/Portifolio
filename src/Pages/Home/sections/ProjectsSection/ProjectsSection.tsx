@@ -13,7 +13,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Duallas Restaurant",
             subtitle: "Jul 2023 - Dez 2023",
-            srcImg: "/src/assets/images/project-trello.png",
+            srcImg: "/public/assets/images/project-trello.png",
             description: "Projeto desenvolvido durante a FSW cosiste em um sistema de gerenciamento de pedidos de um restaurante fictício chamado Duallas. O sistema permite que o usuário faça login, visualize o cardápio, adicione itens ao carrinho, remova itens do carrinho, visualize o carrinho, faça o pedido e visualize o pedido. O sistema também permite que o usuário faça logout e visualize o histórico de pedidos.", 
             technologies: "Technologies: JavaScript, HTML, CSS, Canvas Graphics",
             websiteURL: "https://pad-port-donalds-vkts.vercel.app/duallas-donalds",
@@ -22,7 +22,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Project Exemple",
             subtitle: "Jul 2023 - Dez 2023",
-            srcImg: "/src/assets/images/project-financas.png",
+            srcImg: "/public/assets/images/project-financas.png",
             description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porta semper velit vel rutrum. Aliquam vulputate, nisi eget tristique mattis, nisi sem faucibus eros, a auctor felis sem ut mauris. Phasellus a ultrices elit. Curabitur ut diam eu orci auctor pretium.",
             technologies: "Technologies: JavaScript, HTML, CSS, Canvas Graphics",
             websiteURL: "https://trello.com/",
@@ -31,7 +31,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Project Craze Maze",
             subtitle: "Jul 2019 - May 2019",
-            srcImg: "/src/assets/images/project1-craze-maze.gif",
+            srcImg: "/public/assets/images/project1-craze-maze.gif",
             description: "Game to escape the maze, but not only that. An algorithm has been created that randomly generates a new maze each time the game is started. In this game, the user can use the keyboard keys to move until they find the flag and win the game",
             technologies: "Technologies: JavaScript, HTML, CSS, Canvas Graphics",
             websiteURL: "https://adrianasaty.github.io/ironhack-project1-craze-maze/index.html",
@@ -40,7 +40,7 @@ const ProjectsSection: React.FC = () => {
         {
             title: "Project Blotting",
             subtitle: "Jul 2019 - May 2019",
-            srcImg: "/src/assets/images/project2-blotting.png",
+            srcImg: "/public/assets/images/project2-blotting.png",
             description: "Game to escape the maze, but not only that. An algorithm has been created that randomly generates a new maze each time the game is started. In this game, the user can use the keyboard keys to move until they find the flag and win the game",
             technologies: "Technologies: JavaScript, HTML, CSS, Canvas Graphics",
             websiteURL: "https://adrianasaty.github.io/ironhack-project1-craze-maze/index.html",
@@ -76,4 +76,4 @@ const ProjectsSection: React.FC = () => {
     )
 }
 
-export default ProjectsSection
+export default ProjectsSection;
